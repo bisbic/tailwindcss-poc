@@ -4,4 +4,8 @@ class PagesController < ApplicationController
   
   def flex
   end
+
+  def grid
+  end
+
 end
