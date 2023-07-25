@@ -1,7 +1,25 @@
-<div class="Parent">
+<div class="flex flex-col basis-full">
   <div>Header</div>
-  <div class="flex">
-    <div>Main content</div>
-    <div>Sidebar</div>
+  <div class="flex flex-row">
+    <div class="flex flex-col basis-1/6">
+      <div>Sidebar</div>
+      <div>Sidebar 1</div>
+      <div>Sidebar 2</div>
+      <div>Sidebar 3</div>
+    </div>
+    <div class="flex flex-col basis-5/6">
+      <div>Main content</div>
+      <div class='flex flex-col md:flex-row'>
+        <div class='border border-blue-500'>Content 1</div>
+        <div class='grow border border-red-500'>Content 2</div>
+        <div class='border border-blue-500'>Content 3</div>
+      </div>
+      <div class='flex flex-row flex-wrap'>
+        <div class='w-96 border border-blue-500'>Content 1</div>
+        <div class='w-96 border border-red-500'>Content 2</div>
+        <div class='w-96 border border-blue-500'>Content 3</div>
+      </div>
+
+    </div>
   </div>
 </div>
