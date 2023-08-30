@@ -8,4 +8,6 @@ class PagesController < ApplicationController
   def grid
   end
 
+  def layout
+  end
 end
